@@ -1,0 +1,53 @@
+1. Tytu³: Jakoœæ Czerwonego Wina
+  
+2. Opis:
+
+  Baza danych zosta³au tworzona za pomoc¹ danych z próbek czerwonego wina.
+  Wejœcia: obejmuj¹ testy (np wartoœciach pH), 
+  Wyjœcie: jest oparte na danych sensorycznych (Œrednia z 3 ocen dokonane przez ekspertów winiarskich). 
+  Ka¿dy ekspert oceniana jakoœæ wina od 0 (bardzo Ÿle) do 10 (bardzo doskona³e).
+ 
+3. Wa¿ne informacje:
+
+   Zestaw danych jest zwi¹zany z odmian¹ portugalskiego wina "Vinho Verde".
+   Ze wzglêdu na kwestie prywatnoœci i logistycznych, tylko fizykochemicznych (wejœcia) i sensorycznej (wyjœcie) zmiennych
+   s¹ dostêpne (np nie ma danych na temat rodzajów winogron, wino marki wino, ceny sprzeda¿y, etc.).
+
+   Ponadto, zbieraj¹cy dane nie jest pewien, czy wszystkie zmienne wejœciowe s¹ istotne. Co znaczy, ¿e model mo¿e byæ
+   ciekawy do testowania metod selekcji cech.
+
+4. Iloœæ instancji: wino czerwone: 1599
+
+5. Iloœæ atrybutów: 11 + atrybut wyjœciowy
+
+6. Informacje o atrybutach:
+
+   Dane wejœciowe (opieraj¹ siê na badaniach fizykochemicznych):
+   1 - sta³a kwasowoœci
+   2 - lotna kwasowoœci
+   3 - kwas cytrynowy
+   4 - cukier resztkowy
+   5 - chlorki
+   6 - wolny dwutlenek siarki
+   7 - ca³kowity dwutlenek siarki
+   8 - gêstoœæ
+   9 - pH
+   10 - siarczany
+   11 - alkohol
+
+   Zmienna wyjœciowa (na podstawie danych sensorycznych):
+   12 - jakoœæ (wynik miêdzy 0 i 10)
+
+
+Citation Request:
+	This dataset is public available for research. The details are described in [Cortez et al., 2009]. 
+  	Please include this citation if you plan to use this database:
+
+  	P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. 
+ 	Modeling wine preferences by data mining from physicochemical properties.
+ 	In Decision Support Systems, Elsevier, 47(4):547-553. ISSN: 0167-9236.
+
+  	Available at: [@Elsevier] http://dx.doi.org/10.1016/j.dss.2009.05.016
+        	[Pre-press (pdf)] http://www3.dsi.uminho.pt/pcortez/winequality09.pdf
+        	[bib] http://www3.dsi.uminho.pt/pcortez/dss09.bib
+
